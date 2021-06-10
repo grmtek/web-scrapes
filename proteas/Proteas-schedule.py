@@ -26,6 +26,7 @@ def parseFixtures():
     for game in fixturelist:
         gameinfo = [game.get_text().replace("\n", " ")]
         for cricmatch in gameinfo:
+            #below regex to match lines like "West Indies v South Africa Test Series 2021" only
             cricmatch = re.findall('[A-Z][a-z]*[A-Z a-z]*[v]*[A-Za-z0-9 ]*[0-9]{4}', cricmatch)
             fullgame["match"].append(cricmatch[:])
 
@@ -33,7 +34,7 @@ def parseFixtures():
 
 def proteasFixtures():
     fullgame = parseFixtures()
-    with open("schedule.json", 'w') as outfile:
+    with open("cricket-schedule.json", 'w') as outfile:
         json.dump(fullgame, outfile)
 
     pprint.pprint(fullgame)
