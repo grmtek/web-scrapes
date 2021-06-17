@@ -51,8 +51,14 @@ def torontoGigs():
     gigschedule = parseEvents()
     with open("inertia-schedule.json", 'w') as outfile:
         json.dump(gigschedule, outfile)
+    for each_row in zip(*([i] + (j)
+                          for i, j in gigschedule.items())):
+        print(*each_row, "\n=============================="
+                         "================================="
+                         "=================================="
+                         "=============\n")
 
-    pprint.pprint(gigschedule)
+#    pprint.pprint(gigschedule)
 
 def main():
     parseEvents()
