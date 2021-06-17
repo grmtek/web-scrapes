@@ -36,8 +36,10 @@ def proteasFixtures():
     fullgame = parseFixtures()
     with open("cricket-schedule.json", 'w') as outfile:
         json.dump(fullgame, outfile)
-
-    pprint.pprint(fullgame)
+    for each_row in zip(*([i] + (j)
+                          for i, j in fullgame.items())):
+        print(*each_row, " ")
+#    pprint.pprint(fullgame)
 
 def main():
     parseFixtures()
