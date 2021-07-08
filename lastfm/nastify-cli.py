@@ -90,6 +90,7 @@ def pulltrackURI():
    # print(track_list)
 
     i = 0
+    uris = []
     for object in track_list:
         while i >= 0:
 
@@ -97,7 +98,7 @@ def pulltrackURI():
 
                 artist = track_list["artist"][i].replace(" ", "%20")
                 track = track_list["track"][i].replace(" ", "%20")
-                uris = []
+
                 query = f"https://api.spotify.com/v1/search?query=track%3A{track}+artist%3A{artist}&type=track&offset=0&limit=1"
                 response = requests.get(
                     query,
@@ -106,7 +107,7 @@ def pulltrackURI():
                         "Authorization": f"Bearer {spotify_token}"
                     }
                 )
-
+                i += 1
                 if response.status_code != 200:
                     print(f"\nERROR RESPONSE CODE: {response.status_code}\n")
 
@@ -114,31 +115,21 @@ def pulltrackURI():
                 songs = response_json["tracks"]["items"]
 
                 for uri in songs:
-                    #print(songs[0]["uri"])
                     if songs[0]["uri"] == "":
                         pass
                     else:
                         uris.append(songs[0]["uri"])
-                        return uris
-                print(uris)
 
-
-                #if range(len(track_list)):
-                #    print(range(len(track_list)))
-                i += 1
-
-                #return songs
             except IndexError:
                 print("end of index reached")
                 i = -1
-                pass
+                return uris
 
-
-
-           # return uri
 
 def addsongstoplaylist():
     uris = pulltrackURI()
+    print(uris)
+
 
 
 
