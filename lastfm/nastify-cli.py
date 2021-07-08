@@ -1,7 +1,7 @@
 #!/bin/python3.6
 import pprint
 
-import json
+import time
 import requests
 import argparse
 import secrets
@@ -23,8 +23,9 @@ type = args.type
 api_key = secrets.apikey
 spotify_user_id = secrets.spotify_user_id
 spotify_token = secrets.spotify_token
+spotify_playlist_id = secrets.playlist_id
 
-def querytoptracks():
+def query_top_tracks():
     try:
         payload = {'user': user,
                    'api_key': api_key,
@@ -58,7 +59,7 @@ def querytoptracks():
     return track_list
 
 
-def queryLovedTracks():
+def query_loved_Tracks():
 
     try:
         payload = {'user': user,
@@ -85,8 +86,8 @@ def queryLovedTracks():
             # print(IndexError)
             break
 
-def pulltrackURI():
-    track_list = querytoptracks()
+def pull_track_URI():
+    track_list = query_top_tracks()
    # print(track_list)
 
     i = 0
@@ -126,18 +127,39 @@ def pulltrackURI():
                 return uris
 
 
-def addsongstoplaylist():
-    uris = pulltrackURI()
-    print(uris)
+def add_songs_to_playlist():
+    uris = pull_track_URI()
 
+    for track in uris:
+        print(track)
+        track = track.replace(":", "%3A")
+        print(track)
 
+        query = f"https://api.spotify.com/v1/playlists/{spotify_playlist_id}/tracks?uris={track}"
+        response = requests.post(
+            query,
+            headers={
+                "Content-Type": "application/json",
+                "Authorization": f"Bearer {spotify_token}",
+                "Retry-after": "true"
+            }
+        )
+        print(response)
+        print(query)
+        time.sleep(2)
+
+        print(response.status_code)
+        if response.status_code != 201:
+            print(f"\nERROR RESPONSE CODE: {response.status_code}\n")
+            break
+
+        print(response)
 
 
 def main():
-    querytoptracks()
-    pulltrackURI()
-    addsongstoplaylist()
-    #print("===========================================")
+    query_top_tracks()
+    pull_track_URI()
+    add_songs_to_playlist()
 #    queryLovedTracks()
 
 if __name__ == "__main__":
