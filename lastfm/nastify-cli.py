@@ -1,5 +1,4 @@
 #!/bin/python3.6
-import pprint
 
 import time
 import requests
@@ -50,10 +49,8 @@ def query_top_tracks():
             track = jsonResponse['toptracks']['track'][i].get("name")
             track_list["track"].append(track[:])
             i += 1
-#            print(artist, "- " + track)
-#            print(track_list)
+
         except IndexError:
-            # print(IndexError)
             break
 
     return track_list
@@ -88,7 +85,6 @@ def query_loved_Tracks():
 
 def pull_track_URI():
     track_list = query_top_tracks()
-   # print(track_list)
 
     i = 0
     uris = []
