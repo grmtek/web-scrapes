@@ -10,8 +10,9 @@ import collections
 parser = argparse.ArgumentParser(description='nastify-cli')
 parser.add_argument('--user', required=True, help="lastfm username to query")
 parser.add_argument('--page', required=False, default=1, type=int, help="lastfm paginates responses. Defaults to page 1")
-parser.add_argument('--period', required=False, default='overall', help="overall|6day|1month|3month|6month|12month")
+parser.add_argument('--period', required=False, default='overall', help="overall|7day|1month|3month|6month|12month")
 parser.add_argument('--type', required=False, default='Top', help="")
+parser.add_argument('--playlist', required=True, help="ID for the playlist you wish to populate")
 
 args = parser.parse_args()
 
@@ -19,10 +20,11 @@ user = args.user
 page = args.page
 period = args.period
 type = args.type
+playlist = args.playlist
 api_key = secrets.apikey
 spotify_user_id = secrets.spotify_user_id
 spotify_token = secrets.spotify_token
-spotify_playlist_id = secrets.playlist_id
+#spotify_playlist_id = secrets.playlist_id
 
 def query_top_tracks():
     try:
@@ -131,7 +133,7 @@ def add_songs_to_playlist():
         track = track.replace(":", "%3A")
         print(track)
 
-        query = f"https://api.spotify.com/v1/playlists/{spotify_playlist_id}/tracks?uris={track}"
+        query = f"https://api.spotify.com/v1/playlists/{playlist}/tracks?uris={track}"
         response = requests.post(
             query,
             headers={
