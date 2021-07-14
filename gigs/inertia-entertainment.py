@@ -53,9 +53,8 @@ def torontoGigs():
         json.dump(gigschedule, outfile)
     for each_row in zip(*([i] + (j)
                           for i, j in gigschedule.items())):
-        print("🎸", *each_row, "🤘🤘", "\n________________________________"
-                         "__________________________________"
-                         "______________\n\n")
+        print("🎸", *each_row, "🤘", "\n"
+                         "\n")
 
 
 #    pprint.pprint(gigschedule)
