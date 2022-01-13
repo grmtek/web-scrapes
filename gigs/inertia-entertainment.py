@@ -1,20 +1,28 @@
 import collections
 import json
 import pprint
-from urllib.request import urlopen
+from urllib.request import Request, urlopen
+import requests
 from bs4 import BeautifulSoup
 
 def parseEvents():
     gigschedule = collections.defaultdict(list)
 
     try:
-        html = urlopen("https://inertia-entertainment.com/")
-        bs = BeautifulSoup(html.read(), 'html.parser')
-        giginfo = bs.find('ul', {'class': 'eventsList'}).find_all('h3')
-        gigdates = bs.find('ul', {'class': 'eventsList'}).find_all('p', {'class': 'date'})
-        gigtimes = bs.find('ul', {'class': 'eventsList'}).find_all('p', {'class': 'time'})
-        gigvenues = bs.find('ul', {'class': 'eventsList'}).find_all('p', {'class': 'venue'})
-        gigextradetails = bs.find('ul', {'class': 'eventsList'}).find_all('div', {'class': 'details'})
+        #html = urlopen("https://inertia-entertainment.com/")
+        #html.add_header('User-agent', 'Mozilla/5.0')
+        page_url = 'https://inertia-entertainment.com'
+        headers = {'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36'}
+        resp = Request(page_url, headers=headers)
+        response = urlopen(resp)
+        #print(response)
+        bs = BeautifulSoup(response.read(), 'html.parser')
+        print(bs)
+        giginfo = bs.find('ul', {'class': 'events'}).find_all('h3')
+        gigdates = bs.find('ul', {'class': 'events'}).find_all('p', {'class': 'date'})
+        gigtimes = bs.find('ul', {'class': 'events'}).find_all('p', {'class': 'time'})
+        gigvenues = bs.find('ul', {'class': 'events'}).find_all('p', {'class': 'venue'})
+        gigextradetails = bs.find('ul', {'class': 'events'}).find_all('div', {'class': 'details'})
 
     except Exception as e:
         raise(e)
