@@ -30,10 +30,10 @@ jobs:
       - name: diff Gigs output with current Gigs file
         run: |
           diff ~/inertia-schedule.json gigs/inertia-schedule.json
-          if [ $? -ne 0 ] ; then
-            mv inertia-schedule.json gigs/inertia-schedule.json
-            git config --global user.name "grm-actions[bot]"
-            git config --global user.email "gio@linux.com"
-            git add ./gigs/inertia-schedule.json && git commit -m "new gigs"
-            git push
-          fi
+            if [ $? -ne 0 ] ; then
+              mv inertia-schedule.json gigs/inertia-schedule.json
+              git config --global user.name "grm-actions[bot]"
+              git config --global user.email "gio@linux.com"
+              git add ./gigs/inertia-schedule.json && git commit -m "new gigs"
+              git push
+            fi
