@@ -23,11 +23,11 @@ jobs:
       - name: execute Inertia Gigs script
         run: |
           python ./gigs/inertia-entertainment.py
+          jq . inertia-schedule.json > ~/inertia-temp.json
+          mv ~/inertia-temp.json ~/inertia-schedule.json
       - name: diff Gigs output with current Gigs file
         run: |
-          jq . inertia-schedule.json > inertia-temp.json
-          mv inertia-temp.json inertia-schedule.json
-          diff inertia-schedule.json ./gigs/inertia-schedule.json
+          diff ~/inertia-schedule.json ./gigs/inertia-schedule.json
           if [ $? -ne 0]; then
             mv inertia-schedule.json ./gigs/inertia-schedule.json
             git config --global user.name "grm-actions[bot]"
