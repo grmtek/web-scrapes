@@ -29,6 +29,6 @@ jobs:
           if [ $? -ne 0]; then
             mv inertia-schedule.json ./gigs/inertia-schedule.json
             git config --global user.name "grm-actions[bot]"
-            git config --global user.email "grm-actions@bot.land"
+            git config --global user.email "gio@linux.com"
             git add ./gigs/inertia-schedule.json && git commit -m "new gigs"
             git push
