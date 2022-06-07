@@ -36,4 +36,4 @@ jobs:
           git config --global user.email "gio@linux.com"
           git add ./gigs/inertia-schedule.json && git commit -m "new gigs"
           git push
-          
+        continue-on-error: true
