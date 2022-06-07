@@ -1,8 +1,8 @@
 name: py
 
-on:
-  schedule:
-    - cron: "16 16 * * *" #runs at 16:16 UTC everyday
+on: [workflow_dispatch]
+#  schedule:
+#    - cron: "16 16 * * *" #runs at 16:16 UTC everyday
 
 jobs:
   build:
