@@ -27,7 +27,6 @@ jobs:
         run: |
           jq . /tmp/inertia-schedule.json > ~/inertia-temp.json
           mv ~/inertia-temp.json ~/inertia-schedule.json
-          ls -la
       - name: diff Gigs output with current Gigs file
         run: |
           diff ~/inertia-schedule.json gigs/inertia-schedule.json
@@ -37,3 +36,4 @@ jobs:
             git config --global user.email "gio@linux.com"
             git add ./gigs/inertia-schedule.json && git commit -m "new gigs"
             git push
+          fi
