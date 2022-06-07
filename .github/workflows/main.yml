@@ -25,7 +25,7 @@ jobs:
           python ./gigs/inertia-entertainment.py
       - name: jq output json for pprint
         run: |
-          jq . ~/inertia-schedule.json > ~/inertia-temp.json
+          jq . /tmp/inertia-schedule.json > ~/inertia-temp.json
           mv ~/inertia-temp.json ~/inertia-schedule.json
       - name: diff Gigs output with current Gigs file
         run: |
