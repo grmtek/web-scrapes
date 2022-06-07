@@ -2,7 +2,7 @@ name: py
 
 on:
   schedule:
-    - cron: "0 0 * * *" #runs at 00:00 UTC everyday
+    - cron: "16 16 * * *" #runs at 16:16 UTC everyday
 
 jobs:
   build:
@@ -25,6 +25,8 @@ jobs:
           python ./gigs/inertia-entertainment.py
       - name: diff Gigs output with current Gigs file
         run: |
+          jq . inertia-schedule.json > inertia-temp.json
+          mv inertia-temp.json inertia-schedule.json
           diff inertia-schedule.json ./gigs/inertia-schedule.json
           if [ $? -ne 0]; then
             mv inertia-schedule.json ./gigs/inertia-schedule.json
