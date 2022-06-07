@@ -31,9 +31,11 @@ jobs:
         run: |
           set -x
           diff ~/inertia-schedule.json gigs/inertia-schedule.json
+        continue-on-error: true
+      - name: commit and push gig list if changed
+        run: |
           mv ~/inertia-schedule.json gigs/inertia-schedule.json
           git config --global user.name "grm-actions[bot]"
           git config --global user.email "gio@linux.com"
           git add ./gigs/inertia-schedule.json && git commit -m "new gigs"
           git push
-        continue-on-error: true
