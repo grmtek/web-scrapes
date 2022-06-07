@@ -18,7 +18,7 @@ jobs:
       - name: Install dependencies
         run: |
           python3 -m pip install --upgrade pip
-          pip install json pprint urllib.request requests bs4
+          pip install pprint urllib.request requests bs4
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
       - name: execute Inertia Gigs script
         run: |
