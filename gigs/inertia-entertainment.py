@@ -1,3 +1,5 @@
+# broken since website overhaul
+# this script requires refactoring
 import collections
 import json
 import pprint
