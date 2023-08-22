@@ -1,5 +1,3 @@
-# broken since website overhaul
-# this script requires refactoring
 import collections
 import json
 import pprint
@@ -17,21 +15,18 @@ def parseEvents():
         response = urlopen(resp)
         bs = BeautifulSoup(response.read(), 'html.parser')
         giginfo = bs.find_all('h1', {'class': 'elementor-heading-title'})
+        del(giginfo[0])
+        pprint.pprint(giginfo)
         gigdates = bs.find_all('li', {'class': 'elementor-icon-list-item elementor-repeater-item-1777b88 elementor-inline-item'})
         gigvenues = bs.find_all('li', {'class': 'elementor-icon-list-item elementor-repeater-item-2c0120c elementor-inline-item'})
-        #<li class="elementor-icon-list-item elementor-repeater-item-1777b88 elementor-inline-item">
-        #<span class="elementor-icon-list-text elementor-post-info__item elementor-post-info__item--type-custom">
-#        gigtimes = bs.find('ul', {'class': 'events'}).find_all('p', {'class': 'time'})
-#        gigvenues = bs.find('ul', {'class': 'events'}).find_all('p', {'class': 'venue'})
 #        gigextradetails = bs.find('ul', {'class': 'events'}).find_all('div', {'class': 'details'})
-#.find_all('span', {'class': 'elementor-icon-list-text elementor-post-info__item elementor-post-info__item--type-custom'})
-#       .find_all('span', {'class': 'elementor-icon-list-text elementor-post-info__item elementor-post-info__item--type-custom'})
 
     except Exception as e:
         raise(e)
 
     for artists in giginfo:
         bands = [artists.get_text()]
+
         for band in bands:
             gigschedule["band"].append(band[:])
 
@@ -39,18 +34,14 @@ def parseEvents():
     for dayofgig in gigdates:
         schedule = [dayofgig.get_text()]
         for date in schedule:
-            gigschedule["date"].append(date[:])
+            date = date.strip()
+            gigschedule["- date"].append(date[:])
 
-#
-#    for details in gigtimes:
-#        hourofmetal = [details.get_text()]
-#        for time in hourofmetal:
-#            gigschedule["time"].append(time[:])
-#
     for locations in gigvenues:
         places = [locations.get_text()]
         for venue in places:
-            gigschedule["venue"].append(venue[:])
+            venue = venue.strip()
+            gigschedule["- venue"].append(venue[:])
 #
 #    for info in gigextradetails:
 #        fyi = [info.get_text()]
