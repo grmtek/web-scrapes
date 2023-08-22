@@ -16,40 +16,37 @@ def parseEvents():
         bs = BeautifulSoup(response.read(), 'html.parser')
         giginfo = bs.find_all('h1', {'class': 'elementor-heading-title'})
         del(giginfo[0])
-        pprint.pprint(giginfo)
         gigdates = bs.find_all('li', {'class': 'elementor-icon-list-item elementor-repeater-item-1777b88 elementor-inline-item'})
         gigvenues = bs.find_all('li', {'class': 'elementor-icon-list-item elementor-repeater-item-2c0120c elementor-inline-item'})
-#        gigextradetails = bs.find('ul', {'class': 'events'}).find_all('div', {'class': 'details'})
+
+#        for a in bs.find_all('a', {'class': 'elementor-button elementor-button-link elementor-size-md'}, href=True):
+#            print("Found the URL:", a['href'])
 
     except Exception as e:
         raise(e)
-
-    for artists in giginfo:
-        bands = [artists.get_text()]
-
-        for band in bands:
-            gigschedule["band"].append(band[:])
-
 
     for dayofgig in gigdates:
         schedule = [dayofgig.get_text()]
         for date in schedule:
             date = date.strip()
-            gigschedule["- date"].append(date[:])
+            date = date + ':'
+            gigschedule["date"].append(date[:])
+
+    for artists in giginfo:
+        bands = [artists.get_text()]
+
+        for band in bands:
+            gigschedule["- bands"].append(band[:])
+
 
     for locations in gigvenues:
         places = [locations.get_text()]
         for venue in places:
             venue = venue.strip()
+            venue = '@ ' + venue
             gigschedule["- venue"].append(venue[:])
-#
-#    for info in gigextradetails:
-#        fyi = [info.get_text()]
-#        for details in fyi:
-#            gigschedule["details"].append(details[:])
-#
-    return(gigschedule)
 
+    return gigschedule
 
 def torontoGigs():
     gigschedule = parseEvents()
@@ -59,8 +56,6 @@ def torontoGigs():
                           for i, j in gigschedule.items())):
         print("🎸", *each_row, "🤘")
 
-
-#    pprint.pprint(gigschedule)
 
 def main():
     parseEvents()
