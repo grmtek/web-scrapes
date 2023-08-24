@@ -7,14 +7,13 @@ def parseFixtures():
     fullgame = collections.defaultdict(list)
 
     try:
-        html = urlopen("https://www.theguardian.com/football/tottenham-hotspur/fixtures")
+        html = urlopen("https://www.skysports.com/rugby-union/teams/south-africa/fixtures")
         bs = BeautifulSoup(html.read(), 'html.parser')
-        hometeam = bs.find_all('div', {'class': 'football-match__team football-match__team--home football-team'})
-        awayteam = bs.find_all('div', {'football-match__team football-match__team--away football-team'})
-        fixturedates = bs.find_all('div', {'class': 'date-divider'})
-        tournament = bs.find_all('a', {'class': 'football-matches__heading'})
-        fixturetime = bs.find_all('td', {'class': 'football-match__status football-match__status--f table-column--sub'})
-        fixturetimezone = bs.find_all('span', {'class': 'football-matches__timezone'})
+        fixturedates = bs.find_all('h4', {'class': 'fixres__header2'})
+        tournament = bs.find_all('h5', {'class': 'fixres__header3'})
+        fixturetime = bs.find_all('span', {'class': 'matches__date'})
+        hometeam = bs.find_all('span', {'class': 'matches__item-col matches__participant matches__participant--side1'})
+        awayteam = bs.find_all('span', {'class' : 'matches__item-col matches__participant matches__participant--side2'})
 
     except Exception as e:
         raise(e)
@@ -33,7 +32,8 @@ def parseFixtures():
         for fullday in gameday:
             fullday = fullday.strip()
             fullday = fullday + ":"
-            fullgame["date"].append(fullday[:])
+            fullgame[" date"].append(fullday[:])
+
 
     for team in hometeam:
         homesquad = [team.get_text()]
@@ -41,44 +41,36 @@ def parseFixtures():
         for club in homesquad:
             club = club.strip()
             club = club + ' vs'
-            fullgame["home"].append(club[:])
+            fullgame[" home"].append(club[:])
 
     for team in awayteam:
         awaysquad = [team.get_text()]
 
         for club in awaysquad:
             club = club.strip()
-            fullgame["away"].append(club[:])
+            fullgame[" away"].append(club[:])
 
     for td in fixturetime:
         gametime = [td.get_text()]
 
         for time in gametime:
             time = time.strip()
-            time = '@' + time
-            fullgame["time"].append(time[:])
-
-    for zone in fixturetimezone:
-        gametimez = [zone.get_text()]
-
-        for timezone in gametimez:
-            tz = timezone.strip()
-
-            fullgame["zone"].append(tz[:])
+            time = '@ ' + time + ' (UTC)'
+            fullgame[" time"].append(time[:])
 
     return fullgame
 
-def spursFixtures():
+def bokkeFixtures():
     fullgame = parseFixtures()
-    with open("spurs-schedule.json", 'w') as outfile:
+    with open("springboks-schedule.json", 'w') as outfile:
         json.dump(fullgame, outfile)
     for each_row in zip(*([i] + (j)
                           for i, j in fullgame.items())):
-        print('⚽', *each_row)
+        print('🏉', *each_row)
 
 def main():
     parseFixtures()
-    spursFixtures()
+    bokkeFixtures()
 
 if __name__ == "__main__":
     main()
