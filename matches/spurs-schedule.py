@@ -70,7 +70,7 @@ def parseFixtures():
 
 def spursFixtures():
     fullgame = parseFixtures()
-    with open("spurs-schedule.json", 'w') as outfile:
+    with open("coys-schedule.json", 'w') as outfile:
         json.dump(fullgame, outfile)
     for each_row in zip(*([i] + (j)
                           for i, j in fullgame.items())):
