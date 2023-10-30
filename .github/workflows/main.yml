@@ -1,36 +1,44 @@
-name: py
+name: Automation
+on:
+  workflow_dispatch: 
+  schedule:
+    - cron: '0 0,12 * * *' 
 
-on: [workflow_dispatch]
-#  schedule:
-#    - cron: "16 16 * * *" #runs at 16:16 UTC everyday
-
+      
 jobs:
   build:
+
     runs-on: ubuntu-latest
 
     steps:
-      - name: checkout repo content
-        uses: actions/checkout@v2
-      - name: setup python
-        uses: actions/setup-python@v2
-        with:
-          python-version: 3.8
-      - name: Install dependencies
-        run: |
-          python3 -m pip install --upgrade pip
-          pip install collections json pprint urllib.request requests bs4
-          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-      - name: execute Inertia Gigs script
-        run: |
-          python ./gigs/inertia-entertainment.py
-      - name: diff Gigs output with current Gigs file
-        run: |
-          jq . inertia-schedule.json > inertia-temp.json
-          mv inertia-temp.json inertia-schedule.json
-          diff inertia-schedule.json ./gigs/inertia-schedule.json
-          if [ $? -ne 0]; then
-            mv inertia-schedule.json ./gigs/inertia-schedule.json
-            git config --global user.name "grm-actions[bot]"
-            git config --global user.email "gio@linux.com"
-            git add ./gigs/inertia-schedule.json && git commit -m "new gigs"
-            git push
+    - uses: actions/checkout@v2 
+    
+    - name: Set up Python version
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.8' 
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi  # Install python dependencies if any
+
+    - name: Run the scripts
+      run: python .gigs/inertia-entertainment.py
+      run: python .matches/bokke-schedule.py
+      run: python .matches/proteas-schedule.py
+      run: python .matches/spurs-schedule.py
+
+    - name: Check for changes
+      id: changes
+      uses: UnicornGlobal/has-changes-action@v1.0.1 # This action checks if there are any changes
+      with:
+        paths: 'sup.txt' 
+
+    - name: Commit and push if changes
+      if: steps.changes.outputs.has_changes == 'true'
+      run: |
+        git config --local user.email "grmtek_bot@github.com"
+        git config --local user.name "grmtek Action"
+        git commit -am "Changes noticed at $(date +"%m-%d-%Y %T")" 
+        git push
