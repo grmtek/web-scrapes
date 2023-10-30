@@ -24,22 +24,15 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi  # Install python dependencies if any
 
     - name: Run the scripts 1
-      run: python ./gigs/inertia-entertainment.py
+      run: python ./gigs/inertia-entertainment.py | tee sup.txt
     - name: Run the scripts 2    
-      run: python ./matches/bokke-schedule.py
+      run: python ./matches/bokke-schedule.py | tee -a sup.txt
     - name: Run the scripts 3      
-      run: python ./matches/proteas-schedule.py
+      run: python ./matches/proteas-schedule.py | tee -a sup.txt
     - name: Run the scripts 4      
-      run: python ./matches/spurs-schedule.py
-
-    - name: Check for changes
-      id: changes
-      uses: UnicornGlobal/has-changes-action@v1.0.1 # This action checks if there are any changes
-      with:
-        paths: 'sup.txt' 
+      run: python ./matches/spurs-schedule.py | tee -a sup.txt
 
     - name: Commit and push if changes
-      if: steps.changes.outputs.has_changes == 'true'
       run: |
         git config --local user.email "grmtek_bot@github.com"
         git config --local user.name "grmtek Action"
