@@ -24,13 +24,13 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi  # Install python dependencies if any
 
     - name: Run the scripts 1
-      run: python .gigs/inertia-entertainment.py
+      run: python ./gigs/inertia-entertainment.py
     - name: Run the scripts 2    
-      run: python .matches/bokke-schedule.py
+      run: python ./matches/bokke-schedule.py
     - name: Run the scripts 3      
-      run: python .matches/proteas-schedule.py
+      run: python ./matches/proteas-schedule.py
     - name: Run the scripts 4      
-      run: python .matches/spurs-schedule.py
+      run: python ./matches/spurs-schedule.py
 
     - name: Check for changes
       id: changes
