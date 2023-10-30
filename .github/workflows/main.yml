@@ -36,5 +36,6 @@ jobs:
       run: |
         git config --local user.email "grmtek_bot@github.com"
         git config --local user.name "grmtek Action"
-        git commit -am "Changes noticed at $(date +"%m-%d-%Y %T")" 
+        git add 'sup.txt'
+        git commit -m "Changes noticed at $(date +"%m-%d-%Y %T")" 
         git push
