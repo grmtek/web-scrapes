@@ -23,6 +23,9 @@ jobs:
         python -m pip install --upgrade pip
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi  # Install python dependencies if any
 
+    - name: stash old events file
+      run: cp sup.txt sup.old.txt
+
     - name: Run the scripts 1
       run: python ./gigs/inertia-entertainment.py | tee sup.txt
     - name: Run the scripts 2    
@@ -34,8 +37,11 @@ jobs:
 
     - name: Commit and push if changes
       run: |
+        if ! diff -q sup.txt sup.old.txt ; then
         git config --local user.email "grmtek_bot@github.com"
         git config --local user.name "grmtek Action"
         git add 'sup.txt'
         git commit -m "Changes noticed at $(date +"%m-%d-%Y %T")" 
         git push
+        else echo "No new events to report"
+        fi
