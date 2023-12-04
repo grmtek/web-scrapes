@@ -22,7 +22,6 @@
 🏏 Dec 26: New Zealand vs South Africa @SuperSport Park, Centurion 🌴
 🏏 Jan 3: New Zealand vs South Africa @Newlands, Cape Town 🌴
 ⚽ tournament date home away time zone
-⚽ [Premier League] Sunday 3 December 2023: Man City vs Spurs @11:30 EST (EST)
 ⚽ [Premier League] Thursday 7 December 2023: Spurs vs West Ham @15:15 EST (EST)
 ⚽ [Premier League] Sunday 10 December 2023: Spurs vs Newcastle @11:30 EST (EST)
 ⚽ [Premier League] Friday 15 December 2023: Nottm Forest vs Spurs @15:00 EST (EST)
@@ -42,3 +41,4 @@
 ⚽ [Premier League] Tuesday 2 April 2024: West Ham vs Spurs @14:45 EDT (EDT)
 ⚽ [Premier League] Saturday 6 April 2024: Spurs vs Nottm Forest @10:00 EDT (EDT)
 ⚽ [Premier League] Saturday 13 April 2024: Newcastle vs Spurs @10:00 EDT (EDT)
+⚽ [Premier League] Saturday 20 April 2024: Spurs vs Man City @10:00 EDT (EDT)
