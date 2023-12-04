@@ -28,6 +28,7 @@
 ⚽ [Premier League] Saturday 23 December 2023: Spurs vs Everton @10:00 EST (EST)
 ⚽ [Premier League] Thursday 28 December 2023: Brighton vs Spurs @14:30 EST (EST)
 ⚽ [Premier League] Sunday 31 December 2023: Spurs vs AFC Bournemouth @09:00 EST (EST)
+⚽ [FA Cup] Saturday 6 January 2024: Spurs vs Burnley @10:00 EST (EST)
 ⚽ [Premier League] Sunday 14 January 2024: Man Utd vs Spurs @11:30 EST (EST)
 ⚽ [Premier League] Tuesday 30 January 2024: Spurs vs Brentford @14:45 EST (EST)
 ⚽ [Premier League] Saturday 3 February 2024: Everton vs Spurs @10:00 EST (EST)
@@ -41,4 +42,3 @@
 ⚽ [Premier League] Tuesday 2 April 2024: West Ham vs Spurs @14:45 EDT (EDT)
 ⚽ [Premier League] Saturday 6 April 2024: Spurs vs Nottm Forest @10:00 EDT (EDT)
 ⚽ [Premier League] Saturday 13 April 2024: Newcastle vs Spurs @10:00 EDT (EDT)
-⚽ [Premier League] Saturday 20 April 2024: Spurs vs Man City @10:00 EDT (EDT)
