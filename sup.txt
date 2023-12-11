@@ -18,7 +18,6 @@
 🏏 date match venue 🌴
 🏏 Dec: South Africa vs India @South Africa 🌴
 🏏 February 2024: South Africa vs India @New Zealand 🌴
-🏏 Dec 10, 2023: South Africa vs India @Kingsmead, Durban 🌴
 🏏 Dec 12, 2023: South Africa vs India @St Georges Park, Port Elizabeth 🌴
 🏏 Dec 14, 2023: South Africa vs India @The Wanderers Stadium, Johannesburg 🌴
 🏏 Dec 17, 2023: South Africa vs India @The Wanderers Stadium, Johannesburg 🌴
@@ -27,7 +26,6 @@
 🏏 Dec 26: New Zealand vs South Africa @SuperSport Park, Centurion 🌴
 🏏 Jan 3: New Zealand vs South Africa @Newlands, Cape Town 🌴
 ⚽ tournament date home away time zone
-⚽ [Premier League] Sunday 10 December 2023: Spurs vs Newcastle @11:30 EST (EST)
 ⚽ [Premier League] Friday 15 December 2023: Nottm Forest vs Spurs @15:00 EST (EST)
 ⚽ [Premier League] Saturday 23 December 2023: Spurs vs Everton @10:00 EST (EST)
 ⚽ [Premier League] Thursday 28 December 2023: Brighton vs Spurs @14:30 EST (EST)
@@ -47,3 +45,4 @@
 ⚽ [Premier League] Saturday 6 April 2024: Spurs vs Nottm Forest @10:00 EDT (EDT)
 ⚽ [Premier League] Saturday 13 April 2024: Newcastle vs Spurs @10:00 EDT (EDT)
 ⚽ [Premier League] Saturday 20 April 2024: Spurs vs Man City @10:00 EDT (EDT)
+⚽ [Premier League] Saturday 27 April 2024: Spurs vs Arsenal @10:00 EDT (EDT)
