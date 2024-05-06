@@ -1,5 +1,4 @@
 🎸 date - bands - venue 🤘
-🎸 May 5, 2024: Master Boot Record w/Alia Of The Knife @ Hard Luck 🤘
 🎸 May 9, 2024: Blind Guardian – The God Machine Tour w/Night Demon @ Rebel 🤘
 🎸 May 10, 2024: ULI JON ROTH – INTERSTELLAR SKY GUITAR @ Lees Palace 🤘
 🎸 May 11, 2024: Battle Beast & Blackbriar @ Opera House 🤘
@@ -43,9 +42,19 @@
 🏉 [International Match] Saturday 23rd November: Wales vs South Africa @ 17:40 (UTC)
 🏏 date match venue 🌴
 🏏 June 2024: Sri Lanka vs South Africa @United States, West Indies 🌴
-🏏 Jun 3, 2024: Netherlands vs South Africa @Nassau County International Cricket Stadium, Old Brookville 🌴
-🏏 Jun 8, 2024: South Africa vs Bangladesh @Nassau County International Cricket Stadium, Old Brookville 🌴
-🏏 Jun 10, 2024: South Africa vs Nepal @Nassau County International Cricket Stadium, Old Brookville 🌴
+🏏 Nov: Netherlands vs South Africa @South Africa 🌴
+🏏 Dec: South Africa vs Bangladesh @South Africa 🌴
+🏏 Jun 3, 2024: South Africa vs Nepal @Nassau County International Cricket Stadium, Old Brookville 🌴
+🏏 Jun 8, 2024: South Africa vs Sri Lanka @Nassau County International Cricket Stadium, Old Brookville 🌴
+🏏 Jun 10, 2024: South Africa vs Sri Lanka @Nassau County International Cricket Stadium, Old Brookville 🌴
+🏏 Jun 14, 2024: South Africa vs Pakistan @TBC, TBC 🌴
+🏏 Nov 27: South Africa vs Pakistan @Kingsmead, Durban 🌴
+🏏 Dec 5: South Africa vs Pakistan @St Georges Park, Port Elizabeth 🌴
+🏏 Dec 10, 2024: South Africa vs Pakistan @Kingsmead, Durban 🌴
+🏏 Dec 13, 2024: South Africa vs Pakistan @SuperSport Park, Centurion 🌴
+🏏 Dec 14, 2024: South Africa vs Pakistan @The Wanderers Stadium, Johannesburg 🌴
+🏏 Dec 17, 2024: South Africa vs Pakistan @Boland Park, Paarl 🌴
+🏏 Dec 19, 2024: South Africa vs Pakistan @SuperSport Park, Centurion 🌴
 ⚽ tournament date home away time zone
 ⚽ [Premier League] Saturday 11 May 2024: Spurs vs Burnley @10:00 EDT (EDT)
 ⚽ [Premier League] Tuesday 14 May 2024: Spurs vs Man City @15:00 EDT (EDT)
