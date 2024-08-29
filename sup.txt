@@ -58,6 +58,7 @@
 ⚽ tournament date home away time
 ⚽ [Premier League] Sunday 1 September 2024: Newcastle vs Spurs @08:30 EDT
 ⚽ [Premier League] Sunday 15 September 2024: Spurs vs Arsenal @09:00 EDT
+⚽ [Carabao Cup] Wednesday 18 September 2024: Coventry vs Spurs @14:45 EDT
 ⚽ [Premier League] Saturday 21 September 2024: Spurs vs Brentford @10:00 EDT
 ⚽ [Premier League] Sunday 29 September 2024: Man Utd vs Spurs @11:30 EDT
 ⚽ [Premier League] Sunday 6 October 2024: Brighton vs Spurs @11:30 EDT
@@ -75,4 +76,3 @@
 ⚽ [Premier League] Sunday 29 December 2024: Spurs vs Wolves @10:00 EST
 ⚽ [Premier League] Saturday 4 January 2025: Spurs vs Newcastle @10:00 EST
 ⚽ [Premier League] Tuesday 14 January 2025: Arsenal vs Spurs @14:45 EST
-⚽ [Premier League] Saturday 18 January 2025: Everton vs Spurs @10:00 EST
