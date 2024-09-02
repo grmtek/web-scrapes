@@ -1,5 +1,4 @@
 🎸 date - bands - venue 🤘
-🎸 September 1, 2024: Signs Of the Swarm, Cane Hill, Ov SUlfur, 156/Silence & A Wake IN Providence @ Lee's Palace 🤘
 🎸 September 6, 2024: John 5 – Strung Out Tour w/ Sticks N Stones & Turning Jane @ Lee's Palace 🤘
 🎸 September 6, 2024: The Lox – 30th Anniversary Tour w/Tony Moxberg @ The Concert Hall 🤘
 🎸 September 10, 2024: Knoll, Snakes Of Russia & Phantom Lung @ The Baby G 🤘
@@ -56,6 +55,7 @@
 🏏 Sep 2, 2025: England vs South Africa @Headingley, Leeds 🌴
 ⚽ tournament date home away time
 ⚽ [Premier League] Sunday 15 September 2024: Spurs vs Arsenal @09:00 EDT
+⚽ [Carabao Cup] Tuesday 17 September 2024: Coventry vs Spurs @14:45 EDT
 ⚽ [Carabao Cup] Wednesday 18 September 2024: Coventry vs Spurs @14:45 EDT
 ⚽ [Premier League] Saturday 21 September 2024: Spurs vs Brentford @10:00 EDT
 ⚽ [Premier League] Sunday 29 September 2024: Man Utd vs Spurs @11:30 EDT
@@ -74,4 +74,3 @@
 ⚽ [Premier League] Sunday 29 December 2024: Spurs vs Wolves @10:00 EST
 ⚽ [Premier League] Saturday 4 January 2025: Spurs vs Newcastle @10:00 EST
 ⚽ [Premier League] Tuesday 14 January 2025: Arsenal vs Spurs @14:45 EST
-⚽ [Premier League] Saturday 18 January 2025: Everton vs Spurs @10:00 EST
