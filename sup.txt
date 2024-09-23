@@ -22,19 +22,17 @@
 🏉 [International Match] Saturday 16th November: England vs South Africa @ 17:40 (UTC)
 🏉 [International Match] Saturday 23rd November: Wales vs South Africa @ 17:40 (UTC)
 🏏 date match venue 🌴
-🏏 September 2024: Afghanistan vs South Africa @UAE 🌴
 🏏 Sep: Ireland vs South Africa @UAE 🌴
 🏏 November 2024: Ireland vs South Africa @South Africa 🌴
 🏏 Nov: Ireland vs South Africa @South Africa 🌴
 🏏 Dec: Ireland vs South Africa @South Africa 🌴
 🏏 February 2025: Ireland vs South Africa @Pakistan 🌴
 🏏 September 2025: South Africa vs India @England 🌴
-🏏 Sep 22, 2024: South Africa vs India @Sharjah Cricket Association Stadium, Sharjah 🌴
 🏏 Sep 27, 2024: South Africa vs India @Sheikh Zayed Stadium, Abu Dhabi 🌴
 🏏 Sep 29, 2024: South Africa vs India @Sheikh Zayed Stadium, Abu Dhabi 🌴
-🏏 Oct 2, 2024: South Africa vs Sri Lanka @Sheikh Zayed Stadium, Abu Dhabi 🌴
+🏏 Oct 2, 2024: South Africa vs India @Sheikh Zayed Stadium, Abu Dhabi 🌴
 🏏 Oct 4, 2024: South Africa vs Sri Lanka @Sheikh Zayed Stadium, Abu Dhabi 🌴
-🏏 Oct 7, 2024: South Africa vs Pakistan @Sheikh Zayed Stadium, Abu Dhabi 🌴
+🏏 Oct 7, 2024: South Africa vs Sri Lanka @Sheikh Zayed Stadium, Abu Dhabi 🌴
 🏏 Nov 8, 2024: South Africa vs Pakistan @Kingsmead, Durban 🌴
 🏏 Nov 10, 2024: South Africa vs Pakistan @St Georges Park, Port Elizabeth 🌴
 🏏 Nov 13, 2024: South Africa vs Pakistan @SuperSport Park, Centurion 🌴
@@ -42,14 +40,15 @@
 🏏 Nov 27: South Africa vs Pakistan @Kingsmead, Durban 🌴
 🏏 Dec 5: South Africa vs Pakistan @St Georges Park, Port Elizabeth 🌴
 🏏 Dec 10, 2024: South Africa vs Pakistan @Kingsmead, Durban 🌴
-🏏 Dec 13, 2024: New Zealand vs South Africa @SuperSport Park, Centurion 🌴
-🏏 Dec 14, 2024: Pakistan vs South Africa @The Wanderers Stadium, Johannesburg 🌴
-🏏 Dec 17, 2024: England vs South Africa @Boland Park, Paarl 🌴
+🏏 Dec 13, 2024: South Africa vs Pakistan @SuperSport Park, Centurion 🌴
+🏏 Dec 14, 2024: New Zealand vs South Africa @The Wanderers Stadium, Johannesburg 🌴
+🏏 Dec 17, 2024: Pakistan vs South Africa @Boland Park, Paarl 🌴
 🏏 Dec 19, 2024: England vs South Africa @SuperSport Park, Centurion 🌴
 🏏 Dec 22, 2024: England vs South Africa @The Wanderers Stadium, Johannesburg 🌴
 🏏 Dec 26: England vs South Africa @SuperSport Park, Centurion 🌴
 🏏 Jan 3: England vs South Africa @Newlands, Cape Town 🌴
 🏏 Feb 10, 2025: England vs South Africa @Multan Cricket Stadium, Multan 🌴
+🏏 Feb 12, 2025: England vs South Africa @Multan Cricket Stadium, Multan 🌴
 ⚽ tournament date home away time
 ⚽ [Europa League] Thursday 26 September 2024: Spurs vs Qarabag FK @15:00 EDT
 ⚽ [Premier League] Sunday 29 September 2024: Man Utd vs Spurs @11:30 EDT
