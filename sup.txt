@@ -56,6 +56,7 @@
 ⚽ [Premier League] Saturday 19 October 2024: Spurs vs West Ham @07:30 EDT
 ⚽ [Europa League] Thursday 24 October 2024: Spurs vs AZ @15:00 EDT
 ⚽ [Premier League] Sunday 27 October 2024: C Palace vs Spurs @10:00 EDT
+⚽ [Carabao Cup] Tuesday 29 October 2024: Spurs vs Man City @15:45 EDT
 ⚽ [Premier League] Sunday 3 November 2024: Spurs vs Aston Villa @09:00 EST
 ⚽ [Europa League] Thursday 7 November 2024: Galatasaray vs Spurs @12:45 EST
 ⚽ [Premier League] Sunday 10 November 2024: Spurs vs Ipswich @09:00 EST
@@ -68,4 +69,3 @@
 ⚽ [Premier League] Saturday 14 December 2024: Southampton vs Spurs @10:00 EST
 ⚽ [Premier League] Saturday 21 December 2024: Spurs vs Liverpool @10:00 EST
 ⚽ [Premier League] Thursday 26 December 2024: Nottm Forest vs Spurs @10:00 EST
-⚽ [Premier League] Sunday 29 December 2024: Spurs vs Wolves @10:00 EST
