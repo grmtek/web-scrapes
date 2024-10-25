@@ -11,6 +11,7 @@
 🎸 March 3, 2025: Folkfest Of The North – Korpiklaani & Ensiferum w.s.g @ The Concert Hall 🤘
 🎸 March 20, 2025: Delain & Xandria @ Axis Club 🤘
 🎸 March 21, 2025: Paleface Swiss, Stick To Your Guns & Nasty @ Lee's Palace 🤘
+🎸 April 9, 2025: Visions Of Atlantis – Armada Over North America Tour @ Lees Palace 🤘
 🏉 tournament  date  home  away  time
 🏉 [International Match] Sunday 10th November: Scotland vs South Africa @ 16:10 (UTC)
 🏉 [International Match] Saturday 16th November: England vs South Africa @ 17:40 (UTC)
@@ -40,7 +41,6 @@
 🏏 Feb 10, 2025: England vs South Africa @Multan Cricket Stadium, Multan 🌴
 🏏 Feb 12, 2025: England vs South Africa @Multan Cricket Stadium, Multan 🌴
 ⚽ tournament date home away time
-⚽ [Europa League] Thursday 24 October 2024: Spurs vs AZ @15:00 EDT
 ⚽ [Premier League] Sunday 27 October 2024: C Palace vs Spurs @10:00 EDT
 ⚽ [Carabao Cup] Wednesday 30 October 2024: Spurs vs Man City @16:15 EDT
 ⚽ [Premier League] Sunday 3 November 2024: Spurs vs Aston Villa @09:00 EST
@@ -60,3 +60,4 @@
 ⚽ [Premier League] Wednesday 15 January 2025: Arsenal vs Spurs @15:00 EST
 ⚽ [Premier League] Sunday 19 January 2025: Everton vs Spurs @09:00 EST
 ⚽ [Europa League] Thursday 23 January 2025: Hoffenheim vs Spurs @12:45 EST
+⚽ [Premier League] Sunday 26 January 2025: Spurs vs Leicester @09:00 EST
