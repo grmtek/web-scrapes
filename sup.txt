@@ -38,7 +38,6 @@
 🏏 Feb 12, 2025: England vs South Africa @Multan Cricket Stadium, Multan 🌴
 🏏 Sep 2, 2025: England vs South Africa @Headingley, Leeds 🌴
 ⚽ tournament date home away time
-⚽ [Premier League] Sunday 3 November 2024: Spurs vs Aston Villa @09:00 EST
 ⚽ [Europa League] Thursday 7 November 2024: Galatasaray vs Spurs @12:45 EST
 ⚽ [Premier League] Sunday 10 November 2024: Spurs vs Ipswich @09:00 EST
 ⚽ [Premier League] Saturday 23 November 2024: Man City vs Spurs @12:30 EST
@@ -58,3 +57,4 @@
 ⚽ [Europa League] Thursday 23 January 2025: Hoffenheim vs Spurs @12:45 EST
 ⚽ [Premier League] Sunday 26 January 2025: Spurs vs Leicester @09:00 EST
 ⚽ [Europa League] Thursday 30 January 2025: Spurs vs IF Elfsborg @15:00 EST
+⚽ [Premier League] Saturday 1 February 2025: Brentford vs Spurs @10:00 EST
