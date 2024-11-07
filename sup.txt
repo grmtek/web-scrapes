@@ -1,15 +1,17 @@
 🎸 date - bands - venue 🤘
 🎸 November 6, 2024: The Black Dahlia Murder / Dying Fetus – Beg To Serve 2024 @ Phoenix Concert Theatre 🤘
 🎸 November 12, 2024: ANIMALS AS LEADERS – 10 YEARS OF THE JOY OF MOTION – wsg. Plini @ Danforth Music Hall 🤘
-🎸 November 15, 2024: Mayhem – 40th Anniversary Tour – Exclusive Performance @ The Concert Hall 🤘
+🎸 November 15, 2024: Mayhem – 40th Anniversary Tour – cancelled @ The Concert Hall 🤘
 🎸 November 20, 2024: Xeno & Oaklander w/Subterranea & Castelvi @ Ground Control 🤘
 🎸 November 30, 2024: BLOOD INCANTATION “ABSOLUTE ELSETOUR – NORTH AMERICA 2024” @ Lees Palace 🤘
 🎸 December 7, 2024: Kylira – A Spectacle Of Ghosts @ TD Music Hall @ Massey Hall 🤘
 🎸 February 25, 2025: Aborted – Terrifying Tour – w/Ingested, Peeling Flesh & Stabbing @ Axis Club 🤘
+🎸 March 2, 2025: CATCH YOUR BREATH. ARCHERS, THE FUNERAL PORTRAIT & IF NOT FOR ME @ Opera Houseuse 🤘
 🎸 March 3, 2025: Folkfest Of The North – Korpiklaani & Ensiferum w.s.g @ The Concert Hall 🤘
 🎸 March 20, 2025: Delain, Xandria & Edge OF Paradise @ Axis Club 🤘
 🎸 March 21, 2025: Paleface Swiss, Stick To Your Guns & Nasty @ Lee's Palace 🤘
 🎸 April 9, 2025: Visions Of Atlantis – Armada Over North America Tour @ Lees Palace 🤘
+🎸 April 15, 2025: Wednesday 13 – There’s No Such Thing As Monsters Tour w/Stitched Up heart & More @ Lee's Palace 🤘
 🏉 tournament  date  home  away  time
 🏉 [International Match] Sunday 10th November: Scotland vs South Africa @ 16:10 (UTC)
 🏉 [International Match] Saturday 16th November: England vs South Africa @ 17:40 (UTC)
@@ -48,6 +50,7 @@
 ⚽ [Europa League] Thursday 12 December 2024: Rangers vs Spurs @15:00 EST
 ⚽ [Premier League] Sunday 15 December 2024: Southampton vs Spurs @14:00 EST
 ⚽ [Carabao Cup] Tuesday 17 December 2024: Spurs vs Man Utd @14:45 EST
+⚽ [Carabao Cup] Thursday 19 December 2024: Spurs vs Man Utd @15:00 EST
 ⚽ [Premier League] Sunday 22 December 2024: Spurs vs Liverpool @11:30 EST
 ⚽ [Premier League] Thursday 26 December 2024: Nottm Forest vs Spurs @10:00 EST
 ⚽ [Premier League] Sunday 29 December 2024: Spurs vs Wolves @10:00 EST
@@ -57,4 +60,3 @@
 ⚽ [Europa League] Thursday 23 January 2025: Hoffenheim vs Spurs @12:45 EST
 ⚽ [Premier League] Sunday 26 January 2025: Spurs vs Leicester @09:00 EST
 ⚽ [Europa League] Thursday 30 January 2025: Spurs vs IF Elfsborg @15:00 EST
-⚽ [Premier League] Saturday 1 February 2025: Brentford vs Spurs @10:00 EST
