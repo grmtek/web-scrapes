@@ -20,26 +20,7 @@
 🏉 [Rugby Championship] Saturday 16th August: South Africa vs Australia @ 01:00 (UTC)
 🏉 [Rugby Championship] Saturday 23rd August: South Africa vs Australia @ 01:00 (UTC)
 🏉 [Rugby Championship] Saturday 27th September: South Africa vs Argentina @ 01:00 (UTC)
-🏏 date match venue 🌴
-🏏 Nov: South Africa vs Sri Lanka @South Africa 🌴
-🏏 Dec: South Africa vs Pakistan @South Africa 🌴
-🏏 February 2025: South Africa vs Pakistan @Pakistan 🌴
-🏏 September 2025: South Africa vs Pakistan @England 🌴
-🏏 Dec 5: South Africa vs Pakistan @St Georges Park, Port Elizabeth 🌴
-🏏 Dec 10, 2024: South Africa vs Pakistan @Kingsmead, Durban 🌴
-🏏 Dec 13, 2024: South Africa vs Pakistan @SuperSport Park, Centurion 🌴
-🏏 Dec 14, 2024: South Africa vs Pakistan @The Wanderers Stadium, Johannesburg 🌴
-🏏 Dec 17, 2024: South Africa vs Pakistan @Boland Park, Paarl 🌴
-🏏 Dec 19, 2024: New Zealand vs South Africa @SuperSport Park, Centurion 🌴
-🏏 Dec 22, 2024: Pakistan vs South Africa @The Wanderers Stadium, Johannesburg 🌴
-🏏 Dec 26: England vs South Africa @SuperSport Park, Centurion 🌴
-🏏 Jan 3: England vs South Africa @Newlands, Cape Town 🌴
-🏏 Feb 10, 2025: England vs South Africa @Multan Cricket Stadium, Multan 🌴
-🏏 Feb 12, 2025: England vs South Africa @Multan Cricket Stadium, Multan 🌴
-🏏 Sep 2, 2025: England vs South Africa @Headingley, Leeds 🌴
-🏏 Sep 4, 2025: England vs South Africa @Lords, London 🌴
 ⚽ tournament date home away time
-⚽ [Premier League] Thursday 5 December 2024: AFC Bournemouth vs Spurs @15:15 EST
 ⚽ [Premier League] Sunday 8 December 2024: Spurs vs Chelsea @11:30 EST
 ⚽ [Europa League] Thursday 12 December 2024: Rangers vs Spurs @15:00 EST
 ⚽ [Premier League] Sunday 15 December 2024: Southampton vs Spurs @14:00 EST
@@ -59,3 +40,4 @@
 ⚽ [Premier League] Saturday 22 February 2025: Ipswich vs Spurs @10:00 EST
 ⚽ [Premier League] Tuesday 25 February 2025: Spurs vs Man City @14:45 EST
 ⚽ [Premier League] Saturday 8 March 2025: Spurs vs AFC Bournemouth @10:00 EST
+⚽ [Premier League] Saturday 15 March 2025: Fulham vs Spurs @11:00 EDT
