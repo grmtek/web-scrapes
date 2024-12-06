@@ -20,6 +20,23 @@
 🏉 [Rugby Championship] Saturday 16th August: South Africa vs Australia @ 01:00 (UTC)
 🏉 [Rugby Championship] Saturday 23rd August: South Africa vs Australia @ 01:00 (UTC)
 🏉 [Rugby Championship] Saturday 27th September: South Africa vs Argentina @ 01:00 (UTC)
+🏏 date match venue 🌴
+🏏 Dec: South Africa vs Pakistan @South Africa 🌴
+🏏 February 2025: South Africa vs Pakistan @Pakistan 🌴
+🏏 September 2025: South Africa vs Pakistan @England 🌴
+🏏 Dec 10, 2024: South Africa vs Pakistan @Kingsmead, Durban 🌴
+🏏 Dec 13, 2024: South Africa vs Pakistan @SuperSport Park, Centurion 🌴
+🏏 Dec 14, 2024: South Africa vs Pakistan @The Wanderers Stadium, Johannesburg 🌴
+🏏 Dec 17, 2024: South Africa vs Pakistan @Boland Park, Paarl 🌴
+🏏 Dec 19, 2024: South Africa vs Pakistan @SuperSport Park, Centurion 🌴
+🏏 Dec 22, 2024: New Zealand vs South Africa @The Wanderers Stadium, Johannesburg 🌴
+🏏 Dec 26: Pakistan vs South Africa @SuperSport Park, Centurion 🌴
+🏏 Jan 3: England vs South Africa @Newlands, Cape Town 🌴
+🏏 Feb 10, 2025: England vs South Africa @Multan Cricket Stadium, Multan 🌴
+🏏 Feb 12, 2025: England vs South Africa @Multan Cricket Stadium, Multan 🌴
+🏏 Sep 2, 2025: England vs South Africa @Headingley, Leeds 🌴
+🏏 Sep 4, 2025: England vs South Africa @Lords, London 🌴
+🏏 Sep 7, 2025: England vs South Africa @The Rose Bowl, Southampton 🌴
 ⚽ tournament date home away time
 ⚽ [Premier League] Sunday 8 December 2024: Spurs vs Chelsea @11:30 EST
 ⚽ [Europa League] Thursday 12 December 2024: Rangers vs Spurs @15:00 EST
@@ -30,6 +47,7 @@
 ⚽ [Premier League] Sunday 29 December 2024: Spurs vs Wolves @10:00 EST
 ⚽ [Premier League] Saturday 4 January 2025: Spurs vs Newcastle @07:30 EST
 ⚽ [FA Cup] Saturday 11 January 2025: Tamworth vs Spurs @10:00 EST
+⚽ [FA Cup] Sunday 12 January 2025: Tamworth vs Spurs @07:30 EST
 ⚽ [Premier League] Wednesday 15 January 2025: Arsenal vs Spurs @15:00 EST
 ⚽ [Premier League] Sunday 19 January 2025: Everton vs Spurs @09:00 EST
 ⚽ [Europa League] Thursday 23 January 2025: Hoffenheim vs Spurs @12:45 EST
@@ -40,4 +58,3 @@
 ⚽ [Premier League] Saturday 22 February 2025: Ipswich vs Spurs @10:00 EST
 ⚽ [Premier League] Tuesday 25 February 2025: Spurs vs Man City @14:45 EST
 ⚽ [Premier League] Saturday 8 March 2025: Spurs vs AFC Bournemouth @10:00 EST
-⚽ [Premier League] Saturday 15 March 2025: Fulham vs Spurs @11:00 EDT
