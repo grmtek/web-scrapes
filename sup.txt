@@ -39,7 +39,6 @@
 🏏 Sep 4, 2025: England vs South Africa @Lords, London 🌴
 🏏 Sep 7, 2025: England vs South Africa @The Rose Bowl, Southampton 🌴
 ⚽ tournament date home away time
-⚽ [Europa League] Thursday 12 December 2024: Rangers vs Spurs @15:00 EST
 ⚽ [Premier League] Sunday 15 December 2024: Southampton vs Spurs @14:00 EST
 ⚽ [Carabao Cup] Thursday 19 December 2024: Spurs vs Man Utd @15:00 EST
 ⚽ [Premier League] Sunday 22 December 2024: Spurs vs Liverpool @11:30 EST
@@ -59,3 +58,4 @@
 ⚽ [Premier League] Saturday 8 March 2025: Spurs vs AFC Bournemouth @10:00 EST
 ⚽ [Premier League] Saturday 15 March 2025: Fulham vs Spurs @11:00 EDT
 ⚽ [Premier League] Wednesday 2 April 2025: Chelsea vs Spurs @14:45 EDT
+⚽ [Premier League] Saturday 5 April 2025: Spurs vs Southampton @10:00 EDT
