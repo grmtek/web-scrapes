@@ -13,10 +13,10 @@ def parseEvents():
         resp = Request(page_url, headers=headers)
         response = urlopen(resp)
         bs = BeautifulSoup(response.read(), 'html.parser')
-        giginfo = bs.find_all('div', {'class':'listing-programme-simple'}, limit=6)
+        giginfo = bs.find_all('div', {'class':'listing-programme-simple'}, limit=7)
         del(giginfo[1]) #removes 'wishlist' entry
-        gigdates = bs.find_all('div', {'class': 'listing-shortform-dates'}, limit=6)
-        gigvenues = bs.find_all('div', {'class': 'li-shortform-venue'}, limit=6)
+        gigdates = bs.find_all('div', {'class': 'listing-shortform-dates'}, limit=7)
+        gigvenues = bs.find_all('div', {'class': 'li-shortform-venue'}, limit=7)
 
 
     except Exception as e:
