@@ -33,6 +33,7 @@ def parseEvents():
         bands = [artists.get_text()]
 
         for band in bands:
+            band = band.replace('\n', ' ')
             gigschedule["- piece"].append(band[:])
 
 
