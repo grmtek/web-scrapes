@@ -64,14 +64,14 @@
 🏏 Sep 2, 2025: England vs South Africa @Headingley, Leeds 🌴
 🏏 Sep 4, 2025: England vs South Africa @Lords, London 🌴
 ⚽ tournament date home away time
-⚽ [Premier League] Thursday 3 April 2025: Chelsea vs Spurs @15:00 EDT
-⚽ [Premier League] Sunday 6 April 2025: Spurs vs Southampton @09:00 EDT
-⚽ [Europa League] Thursday 10 April 2025: Spurs vs Eintracht Frankfurt @15:00 EDT
-⚽ [Premier League] Sunday 13 April 2025: Wolves vs Spurs @09:00 EDT
-⚽ [Europa League] Thursday 17 April 2025: Eintracht Frankfurt vs Spurs @15:00 EDT
-⚽ [Premier League] Monday 21 April 2025: Spurs vs Nottm Forest @15:00 EDT
-⚽ [Premier League] Sunday 27 April 2025: Liverpool vs Spurs @11:30 EDT
-⚽ [Premier League] Saturday 3 May 2025: West Ham vs Spurs @10:00 EDT
-⚽ [Premier League] Saturday 10 May 2025: Spurs vs C Palace @10:00 EDT
-⚽ [Premier League] Sunday 18 May 2025: Aston Villa vs Spurs @10:00 EDT
-⚽ [Premier League] Sunday 25 May 2025: Spurs vs Brighton @11:00 EDT
+⚽ [Premier League] Thursday 3 April 2025: Chelsea vs Spurs @21:00 CEST
+⚽ [Premier League] Sunday 6 April 2025: Spurs vs Southampton @15:00 CEST
+⚽ [Europa League] Thursday 10 April 2025: Spurs vs Eintracht Frankfurt @21:00 CEST
+⚽ [Premier League] Sunday 13 April 2025: Wolves vs Spurs @15:00 CEST
+⚽ [Europa League] Thursday 17 April 2025: Eintracht Frankfurt vs Spurs @21:00 CEST
+⚽ [Premier League] Monday 21 April 2025: Spurs vs Nottm Forest @21:00 CEST
+⚽ [Premier League] Sunday 27 April 2025: Liverpool vs Spurs @17:30 CEST
+⚽ [Premier League] Saturday 3 May 2025: West Ham vs Spurs @16:00 CEST
+⚽ [Premier League] Saturday 10 May 2025: Spurs vs C Palace @16:00 CEST
+⚽ [Premier League] Sunday 18 May 2025: Aston Villa vs Spurs @16:00 CEST
+⚽ [Premier League] Sunday 25 May 2025: Spurs vs Brighton @17:00 CEST
